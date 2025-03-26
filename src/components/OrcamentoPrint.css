@@ -1,0 +1,92 @@
+.orcamento-print {
+    border-radius: 10px;
+    font-family: Arial, sans-serif;
+  }
+  
+  .orcamento-container {
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: inset 0 0 1px 1px #444;
+    background: #fff;
+  }
+  
+  .orcamento-header img {
+    float: left;
+    width: 100px;
+    border-radius: 10px;
+    height: auto;
+    margin-right: 20px;
+  }
+  
+  .orcamento-header table,
+  .orcamento-cliente,
+  .orcamento-info,
+  .orcamento-tabela {
+    width: 100%;
+    margin-top: 10px;
+    border-radius: 0.5rem;
+    border-collapse: collapse;
+  }
+  
+  .orcamento-header td,
+  .orcamento-cliente td,
+  .orcamento-info td,
+  .orcamento-tabela td,
+  .orcamento-tabela th {
+    border: 1px solid #333;
+    padding: 5px;
+    font-size: 12px;
+  }
+  
+  .orcamento-tabela th {
+    background: #fcfbfb;
+    color: rgb(5, 5, 5);
+    text-align: left;
+  }
+  
+  h5 {
+    margin-top: 20px;
+    background: #f8f7f7;
+    color: rgb(0, 0, 0);
+    padding: 5px;
+    font-size: 14px;
+  }
+  
+  .rodape {
+    text-align: center;
+    font-weight: bold;
+    margin-top: 20px;
+  }
+  
+  .data-direita {
+    text-align: right;
+    font-size: 12px;
+    margin-top: 10px;
+  }
+  
+  .nao-imprimir  {
+    margin-top: 20px;
+    text-align: center;
+   
+  }
+
+  .nao-imprimir button{
+    border-radius: 10px;
+    background-color: rgb(135, 141, 128);
+    border: none;
+    width: 6rem;
+    height: 2.5rem;
+    color: #0e0e0e;
+  }
+  .nao-imprimir button:hover{
+    background-color: rgb(78, 83, 82);
+    color: #030303;
+  }
+  
+  @media print {
+    .nao-imprimir {
+      display: none;
+    }
+  }
+  

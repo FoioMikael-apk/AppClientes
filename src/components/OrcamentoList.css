@@ -1,0 +1,55 @@
+.orcamento-list-container {
+    background-color: #ffffff;
+    padding: 2rem;
+    border-radius: 16px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    color: #333;
+  }
+  
+  .orcamento-list-container h3 {
+    text-align: center;
+    font-weight: 60;
+    padding: 50px;
+    font-size: 1.6rem;
+    margin-bottom: 1.5rem;
+    color: #0f79e2;
+  }
+  
+  .orcamento-list-container .form-control {
+    background-color: #f1f3f5;
+    border-color: #ced4da;
+    color: #495057;
+  }
+  
+  .orcamento-list-container .form-control:focus {
+    border-color: #80bdff;
+    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+  }
+  
+  .orcamento-list-container .btn-success {
+    font-weight: 600;
+    padding: 0.45rem 1.2rem;
+  }
+  
+  .orcamento-list-container .table th {
+    background-color: #f8f9fa;
+    color: #333;
+    font-weight: 600;
+    text-align: center;
+  }
+  
+  .orcamento-list-container .table td {
+    vertical-align: middle;
+  }
+  
+  .orcamento-list-container .table tr:hover {
+    background-color: #f1f1f1;
+  }
+  
+  .orcamento-list-container .text-center .btn {
+    min-width: 90px;
+  }
+  .imp{
+    background-color: #0f79e2;
+  }
+  

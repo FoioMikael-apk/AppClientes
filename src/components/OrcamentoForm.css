@@ -1,0 +1,83 @@
+.orcamento-form {
+    background-color: #ffffff;
+    padding: 2rem;
+    border-radius: 16px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+    color: #000000;
+  }
+  
+  .titulo-formulario {
+    color: #080808;
+    font-size: 1.8rem;
+    margin-bottom: 1.5rem;
+    text-align: center;
+    
+  }
+  .bloco h5{
+    background-color: transparent;
+    font-size: 1.3rem;
+    margin-bottom: 1rem;
+    padding-top: 1rem;
+  }
+  .subtitulo {
+    background-color:transparent;
+    padding: 0.6rem 1rem;
+    border-radius: 8px;
+    margin: 2rem 0 1rem;
+    font-weight: 600;
+    
+    font-size: 1.2rem;
+    box-shadow: inset 0 0 0 1px #444;
+  }
+  
+  .total-label {
+    font-weight: bold;
+    font-size: 1.4rem;
+    color: #90ee90;
+  }
+  
+  .table thead th {
+    background-color: transparent;
+    color: #050505;
+    
+  }
+  
+  .table tbody tr td {
+    background-color: #feffff;;
+    color: #7e7878;
+    
+  }
+  
+  .form-control {
+    background-color: #cdd1d4;;
+    color: #524d4d;
+    border: 1px solid #444;
+  }
+  
+  .form-control:focus {
+    border-color: #66afe9;
+    box-shadow: 0 0 0 0.2rem rgba(102, 175, 233, 0.25);
+  }
+  
+  button.btn-outline-secondary {
+    color: #030303;
+    
+  }
+  
+  button.btn-outline-secondary:hover {
+    background-color:#524d4d;
+    
+  }
+  
+  button.btn-success {
+    background-color: #28a745;
+    border-color: #28a745;
+    font-weight: 600;
+  }
+  
+  .bloco h4{
+    color: #28a745;
+    
+  }
+
+  

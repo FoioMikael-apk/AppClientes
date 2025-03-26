@@ -1,38 +1,68 @@
-.App {
-  text-align: center;
+/* App.css com melhorias visuais e responsividade */
+
+/* Background personalizado da home */
+.home-bg {
+  background: linear-gradient(to bottom right, #f0f2f5, #ffffff);
+  min-height: 80vh;
+  padding-bottom: 40px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/* Estilo dos cards */
+.card-hover {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  border-radius: 16px;
+  border: none;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+.card-hover:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.12);
+  cursor: pointer;
+}
+
+.card-link {
+  text-decoration: none;
+  color: inherit;
+  display: block;
+}
+
+/* Estilo da navbar */
+.navbar-dark .navbar-nav .nav-link {
+  color: #ffffff;
+  font-weight: 500;
+  margin-right: 12px;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover {
+  color: #adb5bd;
+}
+
+/* Rodapé */
+footer {
+  border-top: 1px solid #dee2e6;
+  background-color: #f8f9fa;
+  margin-top: 2rem;
+}
+.d-inline-block{
+  border-radius: 200px;
+}
+/* Botão ativo */
+.navbar-nav .nav-link.active {
+  font-weight: bold;
+  color: #ffc107 !important;
+}
+
+/* Responsivo */
+@media (max-width: 576px) {
+  .home-bg h2 {
+    font-size: 1.4rem;
   }
-}
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+  .card-hover .card-title {
+    font-size: 1rem;
   }
-  to {
-    transform: rotate(360deg);
+
+  .card-hover .card-text {
+    font-size: 0.875rem;
   }
 }
